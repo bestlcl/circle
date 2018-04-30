@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>示例</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+<canvas id="canvasExp"></canvas>
+</body>
+
+<script src="canvasCircle.js"></script>
+<script>
+    new DrawCanvas({
+        id: 'canvasExp',
+		width: 200,
+		height: 200,
+        percent: 60,
+		font: '22px SimSong',
+        num: 55,
+        text: '用户示例',
+    }).init();
+</script>
+</html>
